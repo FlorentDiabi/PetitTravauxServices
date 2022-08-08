@@ -21,7 +21,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #F7CC01 ;
+    color: #F7CC01;
     font-weight: 700;
 }
 
@@ -32,7 +32,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: 'Ubuntu',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Ubuntu', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
 
@@ -90,7 +90,7 @@ header .intro-text .name {
     padding-top: 20px;
     display: block;
     text-transform: uppercase;
-    font-family: 'Ubuntu',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Ubuntu', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -117,14 +117,15 @@ header .intro-text .skills {
 
 @media(min-width:1024px) {
     header {
-        background:#232324 url("https://res.cloudinary.com/dasdezine/image/upload/v1458051926/hero_tab_xawhqo.jpg") no-repeat;
-        color:rgb(160, 160, 7);
+        background: #232324 url("https://res.cloudinary.com/dasdezine/image/upload/v1458051926/hero_tab_xawhqo.jpg") no-repeat;
+        color: rgb(160, 160, 7);
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-position: center 50px;
     }
+
     header .container {
         padding-top: 100px;
         padding-bottom: 200px;
@@ -141,7 +142,7 @@ header .intro-text .skills {
 
 @media(min-width:1366px) {
     header {
-        background-position: center 10px; 
+        background-position: center 10px;
     }
 }
 
@@ -169,15 +170,16 @@ header .intro-text .skills {
         font-size: 1.5em;
     }
 }
-.bg-dark{
-    background-color: #232324!important;
-    border:1px solid;
+
+.bg-dark {
+    background-color: #232324 !important;
+    border: 1px solid;
     border-color: rgb(160, 160, 7);
 }
 
 .navbar {
     text-transform: uppercase;
-    font-family: 'Ubuntu',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Ubuntu', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
 
@@ -191,28 +193,28 @@ header .intro-text .skills {
 }
 
 .navbar-default .navbar-toggle {
-    border-color:#fdd200;
+    border-color: #fdd200;
 }
 
 .navbar-default .navbar-toggle:hover {
-    background-color:#fdd200;
+    background-color: #fdd200;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color:#fff;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-nav>li>a {
-    color:#fff;
+    color: #fff;
 }
+
 .navbar-default .navbar-nav>li>a:hover {
     color: #fdd200;
 }
 
-.navbar-default .navbar-nav>.active>a, 
-.navbar-default .navbar-nav>.active>a:hover, 
-.navbar-default .navbar-nav>.active>a:focus
-{
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
     color: #212121;
     background-color: #fdd200;
 }
@@ -252,7 +254,7 @@ section.success {
 
 @media(min-width:767px) {
     #portfolio .col-sm-3 {
-        padding-right:0;
+        padding-right: 0;
         padding-left: 0;
     }
 }
@@ -263,17 +265,22 @@ section.success {
 #competences .about-item {
     text-align: center;
 }
-#passions .portfolio-item p,#competences .about-item p {
+
+#passions .portfolio-item p,
+#competences .about-item p {
 
     text-align: center;
     line-height: 1.5;
     padding-bottom: 50px;
 }
-#passions .portfolio-item-Three p, #competences .about-item-Three p {
+
+#passions .portfolio-item-Three p,
+#competences .about-item-Three p {
     padding-bottom: 5px;
 }
 
-#passions .portfolio-item header, #competences .about-item header {
+#passions .portfolio-item header,
+#competences .about-item header {
     background: none;
 }
 
@@ -297,13 +304,16 @@ section.success {
 #passions .portfolio-link .fa {
     font-size: 10em;
     padding: 10px 0px;
-    color:#212121;
-    border-radius:6px;
-    border-radius:5px 20px 5px;;
-    background-color:#F7CC01;
+    color: #212121;
+    border-radius: 6px;
+    border-radius: 5px 20px 5px;
+    ;
+    background-color: #F7CC01;
 }
 
-.seeMore-btn .fa, #portfolio .fa, .contact-btn .fa {
+.seeMore-btn .fa,
+#portfolio .fa,
+.contact-btn .fa {
     padding-right: 5px;
 }
 
@@ -339,13 +349,15 @@ div.contact-btn .btn-outline {
     background: #d2eae3;
 }
 
-div.seeMore-btn .btn-outline, div.contact-btn .btn-outline {
+div.seeMore-btn .btn-outline,
+div.contact-btn .btn-outline {
     transition: all .3s ease-in-out;
 }
 
-div.seeMore-btn .btn-outline:hover, div.contact-btn .btn-outline:hover {
+div.seeMore-btn .btn-outline:hover,
+div.contact-btn .btn-outline:hover {
     background: #fff;
-} 
+}
 
 .btn-outline {
     margin-top: 15px;
@@ -353,7 +365,7 @@ div.seeMore-btn .btn-outline:hover, div.contact-btn .btn-outline:hover {
     border-radius: 20px;
     font-size: 20px;
     color: #212121;
-    background:#fff;
+    background: #fff;
     transition: all .3s ease-in-out;
 }
 
@@ -371,11 +383,11 @@ div.seeMore-btn .btn-outline:hover, div.contact-btn .btn-outline:hover {
 
     div.btn-style {
         position: relative;
-        z-index:1;
+        z-index: 1;
     }
 
     div.btn-style .btn-styleLine {
-        padding:0 0;
+        padding: 0 0;
         display: inline-block;
     }
 
@@ -391,8 +403,8 @@ div.seeMore-btn .btn-outline:hover, div.contact-btn .btn-outline:hover {
         content: "";
         border-top: 2px solid #212121;
         position: absolute;
-        top:50%;
-        left:25%;
+        top: 50%;
+        left: 25%;
         width: 50%;
         z-index: -1;
     }
@@ -401,8 +413,8 @@ div.seeMore-btn .btn-outline:hover, div.contact-btn .btn-outline:hover {
         content: "";
         border-bottom: 2px solid #212121;
         position: absolute;
-        bottom:25%;
-        left:30%;
+        bottom: 25%;
+        left: 30%;
         width: 40%;
         z-index: -1;
     }
@@ -410,12 +422,12 @@ div.seeMore-btn .btn-outline:hover, div.contact-btn .btn-outline:hover {
 
 @media(min-width:1024px) {
     #portfolio .double-line:before {
-        left:32%;
-        width:35%;
+        left: 32%;
+        width: 35%;
     }
 
     #portfolio .double-line:after {
-        left:35%;
+        left: 35%;
         width: 30%;
     }
 }
@@ -423,8 +435,8 @@ div.seeMore-btn .btn-outline:hover, div.contact-btn .btn-outline:hover {
 @media(min-width:1024px) {
     div.seeMore-btn {
         position: relative;
-        top:150px;
-        left:10px;
+        top: 150px;
+        left: 10px;
     }
 }
 
@@ -433,12 +445,13 @@ div.seeMore-btn .btn-outline:hover, div.contact-btn .btn-outline:hover {
 #contact {
     background: #d2eae3;
 }
+
 #contact hr.star-primary:after {
     background-color: #d2eae3;
 }
 
 #contact .form-padding {
-    padding:0px 10px;
+    padding: 0px 10px;
 }
 
 .floating-label-form-group input,
@@ -451,7 +464,7 @@ div.seeMore-btn .btn-outline:hover, div.contact-btn .btn-outline:hover {
     border-radius: 0;
     font-size: 1.5em;
     background: 0 0;
-    box-shadow: none!important;
+    box-shadow: none !important;
     resize: none;
 }
 
@@ -465,10 +478,10 @@ div.seeMore-btn .btn-outline:hover, div.contact-btn .btn-outline:hover {
     vertical-align: middle;
     vertical-align: baseline;
     opacity: 0;
-    -webkit-transition: top .3s ease,opacity .3s ease;
-    -moz-transition: top .3s ease,opacity .3s ease;
-    -ms-transition: top .3s ease,opacity .3s ease;
-    transition: top .3s ease,opacity .3s ease;
+    -webkit-transition: top .3s ease, opacity .3s ease;
+    -moz-transition: top .3s ease, opacity .3s ease;
+    -ms-transition: top .3s ease, opacity .3s ease;
+    transition: top .3s ease, opacity .3s ease;
 }
 
 .floating-label-form-group::not(:first-child) {
@@ -551,6 +564,22 @@ footer .footer-below {
     outline: 0;
 }
 
-ul li.active a{
-    color:#F7CC01!important;
+ul li.active a {
+    color: #F7CC01 !important;
+}
+
+.anim {
+    background: url("/images/bgoutils.png"),#232324;
+    animation: 60s moveit infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes moveit {
+    from {
+        background-position: left;
+    }
+
+    to {
+        background-position: right;
+    }
 }
