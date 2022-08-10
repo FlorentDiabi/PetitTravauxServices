@@ -111,9 +111,9 @@
                     </div>
                 </div>
                 <div class="container-btns">
-                    <button class="btn-first b1">Qui suis-je ?</button>
-                    <button class="btn-first b2">Projets</button>
-                    <button class="btn-first b3">Contacter</button>
+                    <a href="#profil"><button class="btn-first b1">Qui suis-je ?</button></a>
+                    <a href="#projets"><button class="btn-first b2">Projets</button></a>
+                    <a href="#contact"><button class="btn-first b3">Contacter</button></a>
                 </div>
             </div>
         </div>
@@ -132,113 +132,60 @@
     </header>
 
     <!-- Section Compétences -->
-    <section id="competences">
+    <section id="profil">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Domaines</h2>
+                    <h2>Qui suis-je ?</h2>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 center-block about-item">
+                <div class="col-sm-8 center-block about-item" style="background-color:aqua;">
                     <article class="about-item-One">
-                        <header>
-                            <h3>TRAVAUX</h3>
-                        </header>
                         <p>
-                            Petits travaux et entretiens divers / Entretien des espaces verts et petit jardinage /
-                            Petite rénovation intérieure
+                            DESCRIPTION DE BEAU-PAPA
                         </p>
                     </article>
                 </div>
-                <div class="col-sm-6 about-item ">
-
-
-                    <article class="about-item-Two">
-                        <header>
-                            <h3>Services</h3>
-                        </header>
+                <div class="col-sm-4 center-block about-item" style="background-color:rgb(15, 173, 83);">
+                    <article class="about-item-One">
                         <p>
-                            Nettoyage des intérieurs et extérieurs / Aide au déménagement et à l'emménagement /
-                            Aide au montage de mobilier
+                            PHOTO DE BEAU-PAPA
                         </p>
                     </article>
                 </div>
             </div>
-            <div class="text-center btn-style double-line">
+            <!-- <div class="text-center btn-style double-line">
                 <div class="btn-styleLine">
                     <a href="images/cv/CV DIABI Florent.pdf" download="CV DIABI Florent.pdf"
                         class="btn btn-lg btn-outline">
                         <i class="fa fa-fw fa-download"></i> Télécharger mon CV
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
     <!-- My Likes Grid Section -->
-    <section id="passions">
+    <section id="projets">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>En savoir plus...</h2>
+                    <h2>Projets réalisés</h2>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a class="portfolio-link text-center" data-toggle="modal">
-                        <i class="fa fa-fw fa-laptop" aria-hidden="true"
-                            title="Ce logo représente le fait que j'adore l'informatique."></i>
-                    </a>
-                    <article class="portfolio-item-Two">
-                        <header>
-                            <h3>Informatique</h3>
-                        </header>
-                        <p>
-                            Cette passion pour l'informatique est présente depuis que je suis tout petit, elle a
-                            évidemment commencé par les jeux vidéos avant d'évoluer vers la
-                            volonté de s'intéresser à comment les choses sont faites et ainsi découvir le développement.
-
-                        </p>
-                    </article>
+                <div class="col-sm-4 portfolio-item" style="background-color:rgb(21, 95, 159);height: 315px;">
+                    <p>PHOTO(S)</p>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a class="portfolio-link text-center" data-toggle="modal">
-                        <span class="fa fa-fw fa-headphones" aria-hidden="true"
-                            title="Ce logo représente le fait que j'adore la musique"></span>
-                    </a>
-                    <article class="portfolio-item-One">
-                        <header>
-                            <h3>Musique</h3>
-                        </header>
-                        <p>
-                            J'apprécie globalement tout style de musique, des années 80 au rap en passant par le rock,
-                            elle permet de s'évader quelques instants ou de se motiver d'autant plus.
-                            Avec une passion pour la culture Vikings et leurs chants de guerre.
-                        </p>
-                    </article>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a class="portfolio-link text-center" data-toggle="modal">
-                        <span class="fa fa-bicycle" aria-hidden="true"
-                            title="Ce logo représente le fait que je suis passionné par le sport"></span>
-                    </a>
-                    <article class="portfolio-item-Three">
-                        <header>
-                            <h3>Sport</h3>
-                        </header>
-                        <p>
-                            Ma passion pour le sport vient depuis que je suis tout petit, en cherchant un sport je
-                            voulais d'abord "courir sur la piste orange" (athlétisme) étant trop jeune
-                            je me suis rabattu sur la même passion que mon papa, le cyclisme. Cela fait maintenant
-                            presque 15 ans que je parcours des kilomètres sur les routes.
-                        </p>
-                    </article>
+                <div class="col-sm-8 portfolio-item" style="background-color:rgb(159, 21, 131);height: 315px;">
+                    <p>DESCRIPTION PROJET</p>
                 </div>
             </div>
         </div>
+        <hr class="star-secondary">
     </section>
     <div>
         <hr class="loc-hr">
@@ -250,33 +197,40 @@
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-6">
-                        <h3>Réseaux Sociaux</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://www.instagram.com/florent_diabi/?hl=fr" target="_blank"
-                                    class="btn-social btn-outline" alt="Instagram" title="Instagram">
-                                    <i class="fa fa-fw fa-instagram" aria-hidden="true"></i>
-                                    <span class="sr-only">Instagram</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/F_Diabi" target="_blank" class="btn-social btn-outline"
-                                    alt="Twitter" title="Twitter">
-                                    <i class="fa fa-fw fa-twitter" aria-hidden="true"></i>
-                                    <span class="sr-only">twitter</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/florent-diabi-752b58203/" target="_blank"
-                                    class="btn-social btn-outline" alt="Mon Facebook" title="Facebook">
-                                    <i class="fa-brands fa-facebook" aria-hidden="true"></i>
-                                    <span class="sr-only">Facebook</span>
-                                </a>
-                            </li>
-                        </ul>
+                    <div class="footer-col col-md-12">
+                        <h2>Me Contacter</h2>
+                        <table class="contactMe">
+                            <tbody>
+                                <tr>
+                                    <td><a href="Tel:07 81 47 29 97" class="btn-social btn-outline"
+                                            alt="Mon numéro de téléphone" title="+33 7 81 47 29 97">
+                                            <i class="fa fa-fw fa-phone" aria-hidden="true"></i>
+                                        </a>
+                                    </td>
+                                    <td>07.81.47.29.97</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="mailto:tofpetit1973@gmail.com" class="btn-social btn-outline"
+                                            alt="Mon adresse mail" title="Mail : tofpetit1973@gmail.com">
+                                            <i class="fa fa-fw fa-envelope" aria-hidden="true"></i>
+                                        </a>
+                                        </a>
+                                    </td>
+                                    <td style="padding:15px;">tofpetit1973@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://www.linkedin.com/in/florent-diabi-752b58203/" target="_blank"
+                                            class="btn-social btn-outline" alt="Mon Facebook" title="Facebook">
+                                            <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                                            <span class="sr-only">Facebook</span>
+                                        </a>
+                                    </td>
+                                    <td>Ma page Facebook</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <div class="footer-col col-md-6">
+                    <!-- <div class="footer-col col-md-6">
                         <h3>Me contacter</h3>
                         <ul class="list-inline">
                             <li>
@@ -295,7 +249,7 @@
                             </li>
                         </ul>
                         <p>Merci d'utiliser ces coordonnées pour un contact professionnel.</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
