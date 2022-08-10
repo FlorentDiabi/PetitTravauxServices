@@ -1,6 +1,42 @@
+::-webkit-scrollbar{
+    width: 1.5em;
+}
+
+
+::-webkit-scrollbar-track{
+    background: rgb(35 35 36);
+}
+
+::-webkit-scrollbar-thumb{
+    background:  rgb(160, 160, 7);
+    border-radius: 100vw;
+    border: 2px solid rgb(35 35 36);
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:  rgb(102, 102, 4);
+}
+
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700|Lato:400,700);
 
 /****created and maintained  @dasdezine****/
+
+@keyframes animtitle{
+    from{
+        left: -1500px;
+    }
+    to{
+        left: 0px;;
+    }
+}
+@keyframes animdescr{
+    from{
+        color: transparent;
+    }
+    to{
+        color: rgb(160, 160, 7);
+    }
+}
 
 body {
     overflow-x: hidden;
@@ -94,6 +130,11 @@ header .intro-text .name {
     font-family: 'Ubuntu', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2em;
     font-weight: 700;
+    animation: animtitle 3s;
+}
+
+.intro-text{
+    animation: animdescr 5s;
 }
 
 header .intro-text .skills {
@@ -720,3 +761,7 @@ ul li.active a {
         border-radius: 50%;
     }
 }
+
+
+
+
